@@ -1,3 +1,3 @@
-import s from './PlacingAnOrder.module.css'
+import s from './PlacingAnOrder.module.scss'
 
 export const PlacingAnOrder = () => {return <div></div>}

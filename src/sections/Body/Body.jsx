@@ -1,3 +1,3 @@
-import s from './Body.module.css'
+import s from './Body.module.scss'
 
 export const Body = () => {return <div></div>}

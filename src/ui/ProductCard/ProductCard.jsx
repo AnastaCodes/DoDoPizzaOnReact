@@ -1,3 +1,3 @@
-import s from './ProductCard.module.css'
+import s from './ProductCard.module.scss'
 
 export const ProductCard = () => {return <div></div>}

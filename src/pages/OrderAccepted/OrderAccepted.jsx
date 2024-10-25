@@ -1,4 +1,4 @@
-import s from "./OrderAccepted.module.css";
+import s from "./OrderAccepted.module.scss";
 
 export const OrderAccepted = () => {
   
