@@ -1,6 +1,6 @@
 import s from "./Header.module.scss";
 import { Logo } from "../../ui/Logo/Logo";
-import { Button } from "../Button/Button";
+
 
 export const Header = () => {
   return (
@@ -18,6 +18,7 @@ export const Header = () => {
         <a href="88003020060">8 800 302-00-60</a>
         Звонок бесплатный
       </div>
+
     </div>
   );
 };
