@@ -1,6 +1,5 @@
 import s from "./Logo.module.scss";
 import img from "../../../public/logo.png";
-import { Button } from "../Button/Button";
 
 export const Logo = () => {
   return (
