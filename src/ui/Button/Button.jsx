@@ -1,3 +1,7 @@
 import s from './Button.module.scss'
 
-export const Button = () => {return <div></div>}
+export const Button = ({text, type}) => {
+    return (
+        <button className = {`${s.Button} ${s[type]}`}>{text}</button>
+    )
+}
