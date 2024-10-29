@@ -1,1 +1,25 @@
-.Button {}
+.Button {
+    width: 104px;
+    height: 40px;
+    border-radius: 1000px;
+    background: #F96900;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    transition: transform .15s; /* extra */
+
+    &:hover {
+        background: #ED5D08;
+        transform: scale(1.05); /* extra */
+        transition: transform .5s /* extra */
+    }
+}
+
+.secondary {
+    color: rgb(78, 26, 199);
+}
