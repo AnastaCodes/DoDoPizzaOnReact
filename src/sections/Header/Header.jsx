@@ -1,6 +1,6 @@
 import s from "./Header.module.scss";
 import { Logo } from "../../ui/Logo/Logo";
-
+import { Button } from "../../ui/Button/Button";
 export const Header = () => {
   return (
     <div className={s.header}>
@@ -20,6 +20,10 @@ export const Header = () => {
           <a href="88003020060">8 800 302-00-60</a>
           <span>Звонок бесплатный</span>
         </div>
+        <Button 
+        text={"Корзина"}
+        type={"primary"}
+        />
       </div>
     </div>
   );
