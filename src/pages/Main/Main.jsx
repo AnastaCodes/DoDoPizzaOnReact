@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Header } from "../../sections/Header";
-
+import { Button } from "../../ui/Button/Button";
 import s from "./Main.module.scss";
 
 export const Main = () => {
@@ -9,6 +9,7 @@ export const Main = () => {
     <>
     <Header/>
       <h1 onClick={() => navigate("/OrderAccepted")}>HALLO WORLD</h1>
+      <Button text = 'text' type = 'secondary' />
     </>
   );
 };
