@@ -1,23 +1,26 @@
 .logo {
-    padding: 3px;
+    padding-bottom: 40px;
     display: flex;
-  justify-content: center;
-  align-items: center;
-.image{
-    max-width: 43px;
-    margin-right: 15px;
-}
-.signature{
-    font-size: 30px;
-    font-weight: 800;
-    span{
-        font-size: 10px;
-        display: block;
-        font-weight: 400;
-        font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+
+    .image {
+        max-width: 43px;
+        margin-right: 15px;
     }
-}
+
+    .signature {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 800;
+
+        span {
+            font-size: 10px;
+            display: block;
+            font-weight: 400;
+            font-size: 12px;
+        }
+    }
 
 }
-
-
