@@ -9,7 +9,7 @@ export const Main = () => {
     <>
     <Header/>
       <h1 onClick={() => navigate("/OrderAccepted")}>HALLO WORLD</h1>
-      <Button text = 'text' type = 'secondary' />
+      <Button text = 'text' type = 'light' />
     </>
   );
 };
