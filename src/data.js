@@ -4,6 +4,7 @@ export const data = [
         items: [
             {
                 name: 'Чоризо фреш',
+                description: 'Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы',
                 big: {
                     img: '../public/items/pizzas/choriso_fresh/big_choriso_fresh.png',
                     price: 1000,
@@ -16,7 +17,7 @@ export const data = [
                 },
                 small: {
                     img: '../public/items/pizzas/choriso_fresh/small_choriso_fresh.png',
-                    price: 1000,
+                    price: 100,
                     weigth: 1000,
                 },
                 ingredients: [
