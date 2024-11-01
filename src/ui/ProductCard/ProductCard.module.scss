@@ -1,1 +1,25 @@
-.ProductCard {}
+.ProductCard {
+    width: 250px;
+    height: 370px;
+}
+
+.name {
+    color: #000;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.description {
+    color: var(--Gray-dark, #73798C);
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price {
+    color: #000;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+}

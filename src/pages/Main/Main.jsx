@@ -1,15 +1,15 @@
 import { useNavigate } from "react-router-dom";
 import { Header } from "../../sections/Header";
-import { Button } from "../../ui/Button/Button";
 import s from "./Main.module.scss";
+import ProductCard from "../../ui/ProductCard/ProductCard";
+import Picture from "../../assets/img/image-3-pizza.jpg";
+
 
 export const Main = () => {
   const navigate = useNavigate();
   return (
     <>
     <Header/>
-      <h1 onClick={() => navigate("/OrderAccepted")}>HALLO WORLD</h1>
-      <Button text = 'text' type = 'light' />
     </>
   );
 };
