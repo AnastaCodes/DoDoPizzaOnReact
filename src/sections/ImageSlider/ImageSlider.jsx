@@ -16,20 +16,14 @@ export const ImageSlider = () => {
     slidesToShow: 1,
     centerMode: true, 
     centerPadding: "10%",
-
-
   };
 
   return (
     <div className={s.slider}>
       <Slider {...settings}>
-      
           <img src={slider1} alt="Slider 1" />
-     
           <img src={slider2} alt="Slider 2" />
-     
           <img  src={slider3} alt="Slider 3" />
-      
       </Slider>
     </div>
   );
