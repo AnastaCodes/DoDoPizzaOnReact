@@ -5,3 +5,12 @@
     justify-content: center;
 
 }
+
+
+@media screen and (max-width: 576px) {
+    .items {
+        justify-content: start;
+        padding-bottom: 15px;
+    }
+    
+}
