@@ -1,11 +1,18 @@
 .card {
     width: 250px;
-    height: 104px;
     box-shadow: rgba(17, 12, 46, 0.06) 0px 5px 10px 0px;
     border-radius: 10px;
     padding: 20px;
+    display: flex;
+    gap: 22px;
 }
-span{
+
+span {
     display: block;
     font-weight: 700;
+}
+
+.image {
+    width: 76px;
+    height: 76px;
 }
