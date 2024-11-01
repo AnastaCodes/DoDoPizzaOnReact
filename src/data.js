@@ -10,12 +10,12 @@ export const data = [
                     weigth: 1000,
                 },
                 middle: {
-                    img: '/',
+                    img: '../public/items/pizzas/choriso_fresh/middle_choriso_fresh.png',
                     price: 1000,
                     weigth: 1000,
                 },
                 small: {
-                    img: '/',
+                    img: '../public/items/pizzas/choriso_fresh/small_choriso_fresh.png',
                     price: 1000,
                     weigth: 1000,
                 },
@@ -53,17 +53,17 @@ export const data = [
             {
                 name: 'Цыпленок блю чиз',
                 big: {
-                    img: '/',
+                    img: '../public/items/pizzas/chickenBlueCheese/chickenBlueCheese-traditional-big.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 middle: {
-                    img: '/',
+                    img: '../public/items/pizzas/chickenBlueCheese/chickenBlueCheese-traditional-medium.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 small: {
-                    img: '/',
+                    img: '../public/items/pizzas/chickenBlueCheese/chickenBlueCheese-traditional-small.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
@@ -101,17 +101,17 @@ export const data = [
             {
                 name: 'Нежный лосось',
                 big: {
-                    img: '/',
+                    img: '../public/items/pizzas/tender-salmon/tender-salomon-traditional-large.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 middle: {
-                    img: '/',
+                    img: '../public/items/pizzas/tender-salmon/tender-salomon-traditional-medium.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 small: {
-                    img: '/',
+                    img: '../public/items/pizzas/tender-salmon/tender-salomon-traditional-small.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
@@ -149,17 +149,17 @@ export const data = [
             {
                 name: 'Сырная',
                 big: {
-                    img: '/',
+                    img: '../public/items/pizzas/cheese/cheese-traditional-big.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 middle: {
-                    img: '/',
+                    img: '../public/items/pizzas/cheese/cheese-traditional-medium.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 small: {
-                    img: '/',
+                    img: '../public/items/pizzas/cheese/cheese-traditional-small.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
@@ -197,17 +197,17 @@ export const data = [
             {
                 name: 'Пепперони фреш',
                 big: {
-                    img: '/',
+                    img: '../public/items/pizzas/pepperoniFresh/pepperoniFresh-traditional-big.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 middle: {
-                    img: '/',
+                    img: '../public/items/pizzas/pepperoniFresh/pepperoniFresh-traditional-medium.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 small: {
-                    img: '/',
+                    img: '../public/items/pizzas/pepperoniFresh/pepperoniFresh-traditional-small.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
@@ -245,17 +245,17 @@ export const data = [
             {
                 name: 'Четыре сыра',
                 big: {
-                    img: '/',
+                    img: '../public/items/pizzas/four-cheeses/four-cheeses-traditional-large.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 middle: {
-                    img: '/',
+                    img: '../public/items/pizzas/four-cheeses/four-cheeses-traditional-medium.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 small: {
-                    img: '/',
+                    img: '../public/items/pizzas/four-cheeses/four-cheeses-traditional-small.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
@@ -293,17 +293,17 @@ export const data = [
             {
                 name: 'Четыре сезона',
                 big: {
-                    img: '/',
+                    img: '../public/items/pizzas/four-seasons/four-season-traditional-large.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 middle: {
-                    img: '/',
+                    img: '../public/items/pizzas/four-seasons/four-season-traditional-middle.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
                 small: {
-                    img: '/',
+                    img: '../public/items/pizzas/four-seasons/four-season-traditional-small.jpeg',
                     price: 1000,
                     weigth: 1000,
                 },
@@ -341,17 +341,17 @@ export const data = [
             {
                 name: 'Гавайская',
                 big: {
-                    img: '/',
+                    img: '../public/items/pizzas/hawaiian/hawaiian-traditional-big.jpg',
                     price: 1000,
                     weigth: 1000,
                 },
                 middle: {
-                    img: '/',
+                    img: '../public/items/pizzas/hawaiian/hawaiian-traditional-medium.jpg',
                     price: 1000,
                     weigth: 1000,
                 },
                 small: {
-                    img: '/',
+                    img: '../public/items/pizzas/hawaiian/hawaiian-traditional-small.jpg',
                     price: 1000,
                     weigth: 1000,
                 },
