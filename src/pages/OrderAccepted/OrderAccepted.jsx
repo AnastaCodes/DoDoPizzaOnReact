@@ -1,10 +1,11 @@
 import s from "./OrderAccepted.module.scss";
-
+import { PizzaModal } from "../../components/PizzaModal/PizzaModal";
 export const OrderAccepted = () => {
   
   return (
-    <div>
-      <h1>OrderAccepted</h1>
+    <div className={s.test}>
+      <PizzaModal/>
+   
     </div>
   );
 };
