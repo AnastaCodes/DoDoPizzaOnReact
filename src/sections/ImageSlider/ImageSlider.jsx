@@ -15,7 +15,7 @@ export const ImageSlider = () => {
     speed: 500,
     slidesToShow: 1,
     centerMode: true, 
-    centerPadding: "10%",
+    centerPadding: "13%",
   };
 
   return (
