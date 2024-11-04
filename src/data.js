@@ -53,6 +53,7 @@ export const data = [
             },
             {
                 name: 'Цыпленок блю чиз',
+                description: 'Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо',
                 big: {
                     img: '../public/items/pizzas/chickenBlueCheese/chickenBlueCheese-traditional-big.jpeg',
                     price: 1000,
@@ -101,6 +102,7 @@ export const data = [
             },
             {
                 name: 'Нежный лосось',
+                description: 'Лосось, томаты черри, соус песто, моцарелла, соус альфредо',
                 big: {
                     img: '../public/items/pizzas/tender-salmon/tender-salomon-traditional-large.jpeg',
                     price: 1000,
@@ -149,6 +151,7 @@ export const data = [
             },
             {
                 name: 'Сырная',
+                description: 'Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо',
                 big: {
                     img: '../public/items/pizzas/cheese/cheese-traditional-big.jpeg',
                     price: 1000,
@@ -197,6 +200,7 @@ export const data = [
             },
             {
                 name: 'Пепперони фреш',
+                description: 'Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус',
                 big: {
                     img: '../public/items/pizzas/pepperoniFresh/pepperoniFresh-traditional-big.jpeg',
                     price: 1000,
@@ -245,6 +249,7 @@ export const data = [
             },
             {
                 name: 'Четыре сыра',
+                description: 'Бекон, цыпленок, ветчина, сыры чеддер и пармезан, соус песто, кубики брынзы, томаты, красный лук, моцарелла, фирменный соус альфредо, чеснок, итальянские травы',
                 big: {
                     img: '../public/items/pizzas/four-cheeses/four-cheeses-traditional-large.jpeg',
                     price: 1000,
@@ -293,6 +298,7 @@ export const data = [
             },
             {
                 name: 'Четыре сезона',
+                description: 'Увеличенная порция моцареллы, ветчина, пикантная пепперони, кубики брынзы, томаты, шампиньоны, итальянские травы, фирменный томатный соус',
                 big: {
                     img: '../public/items/pizzas/four-seasons/four-season-traditional-large.jpeg',
                     price: 1000,
@@ -341,6 +347,7 @@ export const data = [
             },
             {
                 name: 'Гавайская',
+                description: 'Двойная  порция цыпленка, ананасы, моцарелла, фирменный соус альфредо',
                 big: {
                     img: '../public/items/pizzas/hawaiian/hawaiian-traditional-big.jpg',
                     price: 1000,
@@ -393,7 +400,7 @@ export const data = [
         type: 'combo',
         items: [
             {
-                name: '1 Пицца и закуска',
+                name: 'Комбо за 599 ₽',
                 img: '/',
                 discription: 'Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус.',
                 price: 1000,
