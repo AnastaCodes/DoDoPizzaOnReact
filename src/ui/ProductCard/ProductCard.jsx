@@ -10,7 +10,7 @@ export const ProductCard = ({img, name, description, price, txtButton}) => {
                 <p className = {s.description}> {description} </p>
                 <div className = {s.cardBottom}>
                     <p className = {s.price}> {price} </p>
-                    <Button text = {txtButton} />
+                    <Button text = {txtButton} type = 'secondary'/>
                 </div>
             </div>
         </article>
