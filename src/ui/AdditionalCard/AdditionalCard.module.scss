@@ -4,22 +4,25 @@
     padding: 20px;
     display: flex;
     gap: 22px;
-}
-p{
-    white-space: nowrap;
-}
-span {
-    display: block;
-    font-weight: 700;
+
+    p {
+        white-space: nowrap;
+    }
+
+    span {
+        display: block;
+        font-weight: 700;
+    }
+
+    .image {
+        width: 76px;
+        height: 76px;
+    }
 }
 
-.image {
-    width: 76px;
-    height: 76px;
-}
 @media screen and (max-width: 576px) {
     .card {
         box-shadow: rgba(17, 12, 46, 0.06) 5px 5px 10px 0px;
     }
-    
+
 }

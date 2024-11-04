@@ -1,9 +1,131 @@
-.modal {
-    background: #FCFCFC;
-    padding: 30px;
-    width: 920px;
-    border-radius: 20px;
+.modal,
+.modalContent,
+.pizzaImageContainer,
+.pizzaImageBig,
+.pizzaImageMedium,
+.pizzaImageSmall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.imgContainer{
-    background: #fff;
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modalContent {
+    border-radius: 8px;
+    max-width: 920px;
+    width: 100%;
+    background: #FCFCFC;
+}
+
+.pizzaImageContainer {
+    width: 100%;
+    max-width: 540px;
+    background: white;
+
+    .pizzaImageBig,
+    .pizzaImageMedium,
+    .pizzaImageSmall {
+        border-style: dotted;
+        border-radius: 50%;
+        aspect-ratio: 1;
+        border-color: #e8e8e8;
+    }
+
+    .pizzaImageBig {
+        margin: 44px;
+        width: 458px;
+    }
+
+    .pizzaImageMedium {
+        margin: 20px;
+        width: 372px;
+    }
+
+    .pizzaImageSmall {
+        margin: 30px;
+        width: 100%;
+    }
+}
+
+
+.pizzaOptions {
+    width: 100%;
+    max-width: 380px;
+    padding: 20px;
+
+    .ingredients {
+        font-size: 13px;
+        margin-bottom: 20px;
+
+        p {
+            line-height: 1.5;
+            white-space: normal;
+
+        }
+
+    }
+
+
+    .optionSelector,
+    .doughSelection {
+        display: flex;
+        border-radius: 30px;
+        overflow: hidden;
+        background-color: #f5f5f7;
+        border: 1px solid #f5f5f7;
+        margin-bottom: 15px;
+
+        label {
+            flex: 1;
+            text-align: center;
+            padding: 10px 0;
+            cursor: pointer;
+            font-size: 12px;
+
+            input[type="radio"] {
+                display: none;
+            }
+
+            &.active {
+                box-shadow: 0px 3px 15px 0px rgba(6, 5, 50, 0.05);
+                background-color: #ffffff;
+                font-weight: bold;
+                border-radius: 30px;
+            }
+        }
+    }
+
+.additionalIngredients{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    label {
+        flex: 1;
+        text-align: center;
+        padding: 10px 0;
+        cursor: pointer;
+        font-size: 12px;
+        background: white;
+        border-radius: 12px;
+   }
+
+    input[type="checkbox"] {
+ //display: none;
+  
+    }
+    input[type="checkbox"]:checked + label {
+        border-color: #ddd;
+      }
+      
+}
+
 }
