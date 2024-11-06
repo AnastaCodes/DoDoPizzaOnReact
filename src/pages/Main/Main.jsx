@@ -23,7 +23,7 @@ export const Main = () => {
     <Category title = 'Десерты' type = 'desserts'/>
     <Category title = 'Напитки' type = 'drinks'/>
     <Footer />
-    <PizzaModal />
+    {/* <PizzaModal /> */}
     </>
   );
 };
