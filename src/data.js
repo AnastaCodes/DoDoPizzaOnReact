@@ -17,7 +17,7 @@ export const data = [
                 },
                 small: {
                     img: '../public/items/pizzas/choriso_fresh/small_choriso_fresh.png',
-                    price: 100,
+                    price: 'от 625 ₽',
                     weigth: 1000,
                 },
                 ingredients: [
@@ -66,7 +66,7 @@ export const data = [
                 },
                 small: {
                     img: '../public/items/pizzas/chickenBlueCheese/chickenBlueCheese-traditional-small.jpeg',
-                    price: 1000,
+                    price: 'от 445 ₽',
                     weigth: 1000,
                 },
                 ingredients: [
@@ -115,7 +115,7 @@ export const data = [
                 },
                 small: {
                     img: '../public/items/pizzas/tender-salmon/tender-salomon-traditional-small.jpeg',
-                    price: 1000,
+                    price: 'от 495 ₽',
                     weigth: 1000,
                 },
                 ingredients: [
@@ -164,7 +164,7 @@ export const data = [
                 },
                 small: {
                     img: '../public/items/pizzas/cheese/cheese-traditional-small.jpeg',
-                    price: 1000,
+                    price: 'от 245 ₽',
                     weigth: 1000,
                 },
                 ingredients: [
@@ -213,7 +213,7 @@ export const data = [
                 },
                 small: {
                     img: '../public/items/pizzas/pepperoniFresh/pepperoniFresh-traditional-small.jpeg',
-                    price: 1000,
+                    price: 'от 245 ₽',
                     weigth: 1000,
                 },
                 ingredients: [
@@ -262,7 +262,7 @@ export const data = [
                 },
                 small: {
                     img: '../public/items/pizzas/four-cheeses/four-cheeses-traditional-small.jpeg',
-                    price: 1000,
+                    price: 'от 345 ₽',
                     weigth: 1000,
                 },
                 ingredients: [
@@ -311,7 +311,7 @@ export const data = [
                 },
                 small: {
                     img: '../public/items/pizzas/four-seasons/four-season-traditional-small.jpeg',
-                    price: 1000,
+                    price: 'от 435 ₽',
                     weigth: 1000,
                 },
                 ingredients: [
@@ -360,7 +360,7 @@ export const data = [
                 },
                 small: {
                     img: '../public/items/pizzas/hawaiian/hawaiian-traditional-small.jpg',
-                    price: 1000,
+                    price: 'от 515 ₽',
                     weigth: 1000,
                 },
                 ingredients: [
@@ -401,27 +401,27 @@ export const data = [
         items: [
             {
                 name: 'Комбо за 599 ₽',
-                img: '/',
+                img: '../public/items/combo/image-combo.png',
                 discription: 'Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус.',
-                price: 1000,
+                price: '599 ₽',
             },
             {
                 name: '2 пиццы',
-                img: '/',
+                img: '../public/items/combo/image-combo.png',
                 discription: 'Самое популярное комбо из 2 пицц 30 см. Большой выбор',
-                price: 1000,
+                price: '899 ₽',
             },
             {
                 name: '2 пиццы и закуска',
-                img: '/',
+                img: '../public/items/combo/image-combo.png',
                 discription: '2 пиццы 25 см и закуска на выбор. Для компании из 2–4 человек',
-                price: 1000,
+                price: '799 ₽',
             },
             {
                 name: 'Пицца и 2 закуски',
-                img: '/',
+                img: '../public/items/combo/image-combo.png',
                 discription: 'Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек',
-                price: 1000,
+                price: '799 ₽',
             },
         ]
     },
@@ -430,27 +430,27 @@ export const data = [
         items: [
             {
                 name: 'Томатный суп с гренками',
-                img: '/',
+                img: '../public/items/appetizers/soup-with-croutons.jpg',
                 description: 'Горячий суп с пшеничными гренками на основе фирменного соуса из итальянских томатов',
-                price: 1000,
+                price: '99 ₽',
             },
             {
                 name: 'Томатный суп с митболами',
-                img: '/',
+                img: '../public/items/appetizers/soup-with-mitboul.jpg',
                 description: 'Горячий суп c митболами из говядины и маслинами на основе фирменного соуса из итальянских томатов',
-                price: 1000,
+                price: '149 ₽',
             },
             {
                 name: 'Додстер',
-                img: '/',
+                img: '../public/items/appetizers/dodster.jpg',
                 description: 'Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке',
-                price: 1000,
+                price: '159 ₽',
             },
             {
                 name: 'Острый Додстер',
-                img: '/',
+                img: '../public/items/appetizers/spicy-dodster.jpg',
                 description: 'Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке',
-                price: 1000,
+                price: '159 ₽',
             },
         ]
     },
@@ -458,60 +458,39 @@ export const data = [
         type: 'desserts',
         items: [
             {
-                name: 'Рулетики с ананасами + Рулетики с брусникой, 16 шт',
-                img: '/',
-                description: 'Микс рулетиков со сгущенным молоком: 8 штук с ананасом и корицей, 8 штук с брусникой',
-                quantity: 16,
-                price: 1000,
+                name: 'Яблочный пирог',
+                img: '../public/items/desserts/apple-pie/apple-pie.jpg',
+                description: 'Десерт из песочного теста с яблочной начинкой. Может содержать изюм',
+                quantity: '#',
+                price: '99 ₽',
             },
             {
                 name: 'Чизкейк Нью-Йорк',
-                img: '/',
-                description: 'Мы перепробовали тысячу десертов и наконец нашли любимца гостей — нежнейший творожный чизкейк',
-                quantity: 1,
-                price: 1000,
+                img: '../public/items/desserts/cheese-cake-new-york/cheese-cake-new-york.jpg',
+                description: 'Классический американский творожный десерт',
+                quantity: '#',
+                price: '149 ₽',
             },
             {
-                name: 'Сырники',
-                img: '/',
-                description: 'Любимый десерт многих наших гостей — румяные сырники из печи. Такие нежные, в меру сладкие и напоминающие детство',
+                name: 'Фонданы, 2 шт',
+                img: '../public/items/desserts/fondant/fondant.jpg',
+                description: 'Два десерта с хрустящей корочкой и топлёной шоколадной начинкой',
+                quantity: '#',
+                price: '159 ₽',
+            },
+            {
+                name: 'Молочный коктейль с печеньем Орео',
+                img: '../public/items/desserts/oreo-cookie-milkshake/oreo-cookie-milkshake.jpg',
+                description: 'Напиток из молока и мороженого с добавлением дробленого печенья «Орео»',
                 quantity: 2,
                 price: 1000,
             },
             {
-                name: 'Чизкейк Банановый',
-                img: '/',
-                description: 'Солнечный снаружи и яркий по вкусу внутри. Летняя новинка — нежный чизкейк с бананом и шоколадным печеньем',
-                quantity: '1',
-                price: 1000,
-            },
-            {
-                name: 'Шоколадный кукис',
-                img: '/',
-                description: 'На вид печенье как планета, а на вкус — шоколадная комета с глазурью',
-                quantity: '1',
-                price: 1000,
-            },
-            {
-                name: 'Фондан',
-                img: '/',
-                description: 'Четверо из пяти гостей говорят «Oh la la!», когда едят этот французский десерт с хрустящей корочкой и топленой шоколадной начинкой',
-                quantity: '2',
-                price: 1000,
-            },
-            {
-                name: 'Сорбет Клубничный гранат',
-                img: '/',
-                description: 'Охлаждающий дуэт сочных ягод и спелых фруктов',
-                quantity: '1',
-                price: 1000,
-            },
-            {
-                name: 'Бруслетики',
-                img: '/',
-                description: 'Это задорные сладкие рулетики, в которых закрутился микс из натуральной брусники и фирменного пломбирного соуса',
-                quantity: '16',
-                price: 1000,
+                name: 'Классический молочный коктейль',
+                img: '../public/items/desserts/classic-milkshake/classic-milkshake.png',
+                description: 'Напиток из молока и мороженого',
+                quantity: '#',
+                price: '159 ₽',
             },
         ]
     },
@@ -520,27 +499,27 @@ export const data = [
         items: [
             {
                 name: '2 Coca-Cola по суперцене',
-                img: '/',
+                img: '../public/items/drinks/2-coca-cola.jpg',
                 discription: 'Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л',
-                price: 1000,
+                price: '99 ₽',
             },
             {
                 name: 'Coca-Cola Orange',
-                img: '/',
+                img: '../public/items/drinks/coca-cola-orange.jpg',
                 discription: '0,5 л',
-                price: 1000,
+                price: '149 ₽',
             },
             {
                 name: 'Coca-Cola Zero',
-                img: '/',
+                img: '../public/items/drinks/coca-cola-zero.jpg',
                 discription: '0,5 л',
-                price: 1000,
+                price: '159 ₽',
             },
             {
                 name: 'Coca-Cola',
-                img: '/',
+                img: '../public/items/drinks/coca-cola.jpg',
                 discription: '0,5 л',
-                price: 1000,
+                price: '159 ₽',
             },
         ]
     },
