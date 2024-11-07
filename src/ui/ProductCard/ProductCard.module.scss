@@ -1,5 +1,7 @@
 .ProductCard {
     width: 100%;
+    height: auto;
+    max-height: 425px;
 }
 
 .image{
@@ -17,20 +19,27 @@
     margin-bottom: 10px;
 }
 
+.Product {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .description {
     color: var(--Gray-dark, #73798C);
     font-family: Nunito;
     font-size: 14px;
     font-weight: 400;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 .cardBottom {
+    margin-top: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 20px;
-    position: absolute;
 }
 
