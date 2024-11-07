@@ -3,22 +3,169 @@ export const data = [
         type: 'pizza',
         items: [
             {
-                name: 'Чоризо фреш',
-                description: 'Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы',
+                name: 'Пицца из половинок',
+                description: 'Соберите свою пиццу 35 см с двумя разными вкусами',
                 big: {
-                    img: '../public/items/pizzas/choriso_fresh/big_choriso_fresh.png',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/halves-pizza/big-halves-pizza.png',
+                    price: '999 ₽',
+                    weigth: '35, 770 г',
                 },
                 middle: {
-                    img: '../public/items/pizzas/choriso_fresh/middle_choriso_fresh.png',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/halves-pizza/middle-halves-pizza.jpg',
+                    price: '819 ₽',
+                    weigth: '30, 570 г',
                 },
                 small: {
-                    img: '../public/items/pizzas/choriso_fresh/small_choriso_fresh.png',
+                    img: '../public/items/pizzas/halves-pizza/small-halves-pizza.jpg',
+                    price: 'от 600 ₽',
+                    weigth: '25, 410 г',
+                },
+                ingredients: [
+                    {
+                        name: 'ветчина',
+                        isConstant: false,
+                    },
+                    {
+                        name: 'сыр чеддер',
+                        isConstant: true,
+                    },
+                    {
+                        name: 'сладкий перец',
+                        isConstant: false,
+                    },
+                    {
+                        name: 'моцарелла',
+                        isConstant: true,
+                    },
+                    {
+                        name: 'томатный соус',
+                        isConstant: true,
+                    },
+                    {
+                        name: 'чеснок',
+                        isConstant: false,
+                    },
+                    {
+                        name: 'итальянские травы',
+                        isConstant: false,
+                    },
+                ],
+            },
+            {
+                name: 'Пепперони-сердце',
+                description: 'Пикантная пепперони, моцарелла, томатный соус',
+                big: {
+                    img: '../public/items/pizzas/pepperoni-heart/big-pepperoni-heart.png',
+                    price: '999 ₽',
+                    weigth: '35, 840 г',
+                },
+                middle: {
+                    img: '../public/items/pizzas/pepperoni-heart/middle-pepperoni-heart.jpg',
+                    price: '819 ₽',
+                    weigth: '30, 610 г',
+                },
+                small: {
+                    img: '../public/items/pizzas/pepperoni-heart/small-pepperoni-heart.jpg',
                     price: 'от 625 ₽',
-                    weigth: 1000,
+                    weigth: '25, 420 г',
+                },
+                ingredients: [
+                    {
+                        name: 'ветчина',
+                        isConstant: false,
+                    },
+                    {
+                        name: 'сыр чеддер',
+                        isConstant: true,
+                    },
+                    {
+                        name: 'сладкий перец',
+                        isConstant: false,
+                    },
+                    {
+                        name: 'моцарелла',
+                        isConstant: true,
+                    },
+                    {
+                        name: 'томатный соус',
+                        isConstant: true,
+                    },
+                    {
+                        name: 'чеснок',
+                        isConstant: false,
+                    },
+                    {
+                        name: 'итальянские травы',
+                        isConstant: false,
+                    },
+                ],
+            },
+            {
+                name: 'Пирог-сердце',
+                description: 'Ананасы, брусника, сгущенное молоко',
+                big: {
+                    img: '../public/items/pizzas/heart-pie/big-heart-pie.png',
+                    price: '999 ₽',
+                    weigth: '35, 800 г',
+                },
+                middle: {
+                    img: '../public/items/pizzas/heart-pie/middle-heart-pie.jpg',
+                    price: '899 ₽',
+                    weigth: '30, 630 г',
+                },
+                small: {
+                    img: '../public/items/pizzas/heart-pie/small-heart-pie.jpg',
+                    price: 'от 625 ₽',
+                    weigth: '25, 390 г',
+                },
+                ingredients: [
+                    {
+                        name: 'ветчина',
+                        isConstant: false,
+                    },
+                    {
+                        name: 'сыр чеддер',
+                        isConstant: true,
+                    },
+                    {
+                        name: 'сладкий перец',
+                        isConstant: false,
+                    },
+                    {
+                        name: 'моцарелла',
+                        isConstant: true,
+                    },
+                    {
+                        name: 'томатный соус',
+                        isConstant: true,
+                    },
+                    {
+                        name: 'чеснок',
+                        isConstant: false,
+                    },
+                    {
+                        name: 'итальянские травы',
+                        isConstant: false,
+                    },
+                ],
+            },
+            {
+                name: 'Чиззи чеддер',
+                description: 'Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы',
+                big: {
+                    img: '../public/items/pizzas/cheezy-cheddar/big-cheezy-cheddar.png',
+                    price: '999 ₽',
+                    weigth: '35, 640 г',
+                },
+                middle: {
+                    img: '../public/items/pizzas/cheezy-cheddar/middle-cheezy-cheddar.jpg',
+                    price: '599 ₽',
+                    weigth: '30, 470 г',
+                },
+                small: {
+                    img: '../public/items/pizzas/cheezy-cheddar/small-cheezy-cheddar.jpg',
+                    price: 'от 625 ₽',
+                    weigth: '25, 310 г',
                 },
                 ingredients: [
                     {
@@ -55,19 +202,19 @@ export const data = [
                 name: 'Цыпленок блю чиз',
                 description: 'Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо',
                 big: {
-                    img: '../public/items/pizzas/chickenBlueCheese/chickenBlueCheese-traditional-big.jpeg',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/blue-cheese-chicken/big-blue-cheese-chicken.png',
+                    price: '829 ₽',
+                    weigth: '35, 730 г',
                 },
                 middle: {
-                    img: '../public/items/pizzas/chickenBlueCheese/chickenBlueCheese-traditional-medium.jpeg',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/blue-cheese-chicken/middle-blue-cheese-chicken.jpg',
+                    price: '709 ₽',
+                    weigth: '30, 520 г',
                 },
                 small: {
-                    img: '../public/items/pizzas/chickenBlueCheese/chickenBlueCheese-traditional-small.jpeg',
+                    img: '../public/items/pizzas/blue-cheese-chicken/small-blue-cheese-chicken.jpg',
                     price: 'от 445 ₽',
-                    weigth: 1000,
+                    weigth: '25, 360 г',
                 },
                 ingredients: [
                     {
@@ -104,19 +251,19 @@ export const data = [
                 name: 'Нежный лосось',
                 description: 'Лосось, томаты черри, соус песто, моцарелла, соус альфредо',
                 big: {
-                    img: '../public/items/pizzas/tender-salmon/tender-salomon-traditional-large.jpeg',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/tender-salmon/tender-salmon/big-tender-salmon.png',
+                    price: '999 ₽',
+                    weigth: '35, 880 г',
                 },
                 middle: {
-                    img: '../public/items/pizzas/tender-salmon/tender-salomon-traditional-medium.jpeg',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/tender-salmon/middle-tender-salmon.jpg',
+                    price: '659 ₽',
+                    weigth: '30, 610 г',
                 },
                 small: {
-                    img: '../public/items/pizzas/tender-salmon/tender-salomon-traditional-small.jpeg',
+                    img: '../public/items/pizzas/tender-salmon/small-tender-salmon.jpg',
                     price: 'от 495 ₽',
-                    weigth: 1000,
+                    weigth: '25, 390 г',
                 },
                 ingredients: [
                     {
@@ -153,19 +300,19 @@ export const data = [
                 name: 'Сырная',
                 description: 'Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо',
                 big: {
-                    img: '../public/items/pizzas/cheese/cheese-traditional-big.jpeg',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/cheese/big-cheese.png',
+                    price: '825 ₽',
+                    weigth: '35, 640 г',
                 },
                 middle: {
-                    img: '../public/items/pizzas/cheese/cheese-traditional-medium.jpeg',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/cheese/middle-cheese.jpg',
+                    price: '445 ₽',
+                    weigth: '30, 470 г',
                 },
                 small: {
-                    img: '../public/items/pizzas/cheese/cheese-traditional-small.jpeg',
+                    img: '../public/items/pizzas/cheese/small-cheese.jpg',
                     price: 'от 245 ₽',
-                    weigth: 1000,
+                    weigth: '25, 310 г',
                 },
                 ingredients: [
                     {
@@ -202,166 +349,19 @@ export const data = [
                 name: 'Пепперони фреш',
                 description: 'Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус',
                 big: {
-                    img: '../public/items/pizzas/pepperoniFresh/pepperoniFresh-traditional-big.jpeg',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/pepperoni-fresh/big-pepperoni-fresh.png',
+                    price: '847 ₽',
+                    weigth: '35, 790 г',
                 },
                 middle: {
-                    img: '../public/items/pizzas/pepperoniFresh/pepperoniFresh-traditional-medium.jpeg',
-                    price: 1000,
-                    weigth: 1000,
+                    img: '../public/items/pizzas/pepperoni-fresh/middle-pepperoni-fresh.jpg',
+                    price: '458 ₽',
+                    weigth: '30, 590 г',
                 },
                 small: {
-                    img: '../public/items/pizzas/pepperoniFresh/pepperoniFresh-traditional-small.jpeg',
+                    img: '../public/items/pizzas/small-pepperoni-fresh.jpg',
                     price: 'от 245 ₽',
-                    weigth: 1000,
-                },
-                ingredients: [
-                    {
-                        name: 'ветчина',
-                        isConstant: false,
-                    },
-                    {
-                        name: 'сыр чеддер',
-                        isConstant: true,
-                    },
-                    {
-                        name: 'сладкий перец',
-                        isConstant: false,
-                    },
-                    {
-                        name: 'моцарелла',
-                        isConstant: true,
-                    },
-                    {
-                        name: 'томатный соус',
-                        isConstant: true,
-                    },
-                    {
-                        name: 'чеснок',
-                        isConstant: false,
-                    },
-                    {
-                        name: 'итальянские травы',
-                        isConstant: false,
-                    },
-                ],
-            },
-            {
-                name: 'Четыре сыра',
-                description: 'Бекон, цыпленок, ветчина, сыры чеддер и пармезан, соус песто, кубики брынзы, томаты, красный лук, моцарелла, фирменный соус альфредо, чеснок, итальянские травы',
-                big: {
-                    img: '../public/items/pizzas/four-cheeses/four-cheeses-traditional-large.jpeg',
-                    price: 1000,
-                    weigth: 1000,
-                },
-                middle: {
-                    img: '../public/items/pizzas/four-cheeses/four-cheeses-traditional-medium.jpeg',
-                    price: 1000,
-                    weigth: 1000,
-                },
-                small: {
-                    img: '../public/items/pizzas/four-cheeses/four-cheeses-traditional-small.jpeg',
-                    price: 'от 345 ₽',
-                    weigth: 1000,
-                },
-                ingredients: [
-                    {
-                        name: 'ветчина',
-                        isConstant: false,
-                    },
-                    {
-                        name: 'сыр чеддер',
-                        isConstant: true,
-                    },
-                    {
-                        name: 'сладкий перец',
-                        isConstant: false,
-                    },
-                    {
-                        name: 'моцарелла',
-                        isConstant: true,
-                    },
-                    {
-                        name: 'томатный соус',
-                        isConstant: true,
-                    },
-                    {
-                        name: 'чеснок',
-                        isConstant: false,
-                    },
-                    {
-                        name: 'итальянские травы',
-                        isConstant: false,
-                    },
-                ],
-            },
-            {
-                name: 'Четыре сезона',
-                description: 'Увеличенная порция моцареллы, ветчина, пикантная пепперони, кубики брынзы, томаты, шампиньоны, итальянские травы, фирменный томатный соус',
-                big: {
-                    img: '../public/items/pizzas/four-seasons/four-season-traditional-large.jpeg',
-                    price: 1000,
-                    weigth: 1000,
-                },
-                middle: {
-                    img: '../public/items/pizzas/four-seasons/four-season-traditional-middle.jpeg',
-                    price: 1000,
-                    weigth: 1000,
-                },
-                small: {
-                    img: '../public/items/pizzas/four-seasons/four-season-traditional-small.jpeg',
-                    price: 'от 435 ₽',
-                    weigth: 1000,
-                },
-                ingredients: [
-                    {
-                        name: 'ветчина',
-                        isConstant: false,
-                    },
-                    {
-                        name: 'сыр чеддер',
-                        isConstant: true,
-                    },
-                    {
-                        name: 'сладкий перец',
-                        isConstant: false,
-                    },
-                    {
-                        name: 'моцарелла',
-                        isConstant: true,
-                    },
-                    {
-                        name: 'томатный соус',
-                        isConstant: true,
-                    },
-                    {
-                        name: 'чеснок',
-                        isConstant: false,
-                    },
-                    {
-                        name: 'итальянские травы',
-                        isConstant: false,
-                    },
-                ],
-            },
-            {
-                name: 'Гавайская',
-                description: 'Двойная  порция цыпленка, ананасы, моцарелла, фирменный соус альфредо',
-                big: {
-                    img: '../public/items/pizzas/hawaiian/hawaiian-traditional-big.jpg',
-                    price: 1000,
-                    weigth: 1000,
-                },
-                middle: {
-                    img: '../public/items/pizzas/hawaiian/hawaiian-traditional-medium.jpg',
-                    price: 1000,
-                    weigth: 1000,
-                },
-                small: {
-                    img: '../public/items/pizzas/hawaiian/hawaiian-traditional-small.jpg',
-                    price: 'от 515 ₽',
-                    weigth: 1000,
+                    weigth: '25, 380 г',
                 },
                 ingredients: [
                     {
@@ -482,8 +482,8 @@ export const data = [
                 name: 'Молочный коктейль с печеньем Орео',
                 img: '../public/items/desserts/oreo-cookie-milkshake/oreo-cookie-milkshake.jpg',
                 description: 'Напиток из молока и мороженого с добавлением дробленого печенья «Орео»',
-                quantity: 2,
-                price: 1000,
+                quantity: '#',
+                price: '159 ₽',
             },
             {
                 name: 'Классический молочный коктейль',
@@ -500,25 +500,25 @@ export const data = [
             {
                 name: '2 Coca-Cola по суперцене',
                 img: '../public/items/drinks/2-coca-cola.jpg',
-                discription: 'Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л',
+                description: 'Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л',
                 price: '99 ₽',
             },
             {
                 name: 'Coca-Cola Orange',
                 img: '../public/items/drinks/coca-cola-orange.jpg',
-                discription: '0,5 л',
+                description: '0,5 л',
                 price: '149 ₽',
             },
             {
                 name: 'Coca-Cola Zero',
                 img: '../public/items/drinks/coca-cola-zero.jpg',
-                discription: '0,5 л',
+                description: '0,5 л',
                 price: '159 ₽',
             },
             {
                 name: 'Coca-Cola',
                 img: '../public/items/drinks/coca-cola.jpg',
-                discription: '0,5 л',
+                description: '0,5 л',
                 price: '159 ₽',
             },
         ]
