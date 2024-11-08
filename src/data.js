@@ -423,6 +423,12 @@ export const data = [
                 discription: 'Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек',
                 price: '799 ₽',
             },
+            {
+                name: 'Комбо за 999 ₽',
+                img: '../public/items/combo/image-combo2.jpg',
+                discription: '3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц ограничен',
+                price: '999 ₽',
+            },
         ]
     },
     {
@@ -450,6 +456,12 @@ export const data = [
                 name: 'Острый Додстер',
                 img: '../public/items/appetizers/spicy-dodster.jpg',
                 description: 'Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке',
+                price: '159 ₽',
+            },
+            {
+                name: 'Додстер Чипотле',
+                img: '../public/items/appetizers/dodster-chipotle.jpg',
+                description: 'Горячая закуска с пикантным соусом чипотле из копченых перчиков, цыпленком, томатами, моцареллой в тонкой пшеничной лепешке',
                 price: '159 ₽',
             },
         ]
@@ -518,6 +530,12 @@ export const data = [
             {
                 name: 'Coca-Cola',
                 img: '../public/items/drinks/coca-cola.jpg',
+                description: '0,5 л',
+                price: '159 ₽',
+            },
+            {
+                name: 'Coca-Cola Vanilla',
+                img: '../public/items/drinks/coca-cola-vanilla.jpg',
                 description: '0,5 л',
                 price: '159 ₽',
             },
