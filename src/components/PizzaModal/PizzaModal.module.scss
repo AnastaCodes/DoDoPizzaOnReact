@@ -58,9 +58,27 @@
 
 
 .pizzaOptions {
+    .margin{
+        margin: 0 20px;
+    }
+    .menu {
+        margin-bottom: -15px;
+        padding-bottom: 30px;
+        height: 530px;
+        overflow-y: scroll;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    position: relative;
+
+    
     width: 100%;
     max-width: 380px;
-    padding: 20px;
+    padding: 20px 0;
 
     .ingredients {
         font-size: 13px;
@@ -90,7 +108,7 @@
             padding: 10px 0;
             cursor: pointer;
             font-size: 12px;
-
+            transition: all 0.3s ease-in-out;
             input[type="radio"] {
                 display: none;
             }
@@ -104,28 +122,79 @@
         }
     }
 
-.additionalIngredients{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    label {
-        flex: 1;
-        text-align: center;
-        padding: 10px 0;
-        cursor: pointer;
-        font-size: 12px;
-        background: white;
-        border-radius: 12px;
-   }
+    .additionalIngredients {
 
-    input[type="checkbox"] {
- //display: none;
-  
+        .extra {
+            width: 100%;
+        }
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+        label {
+            position: relative;
+            flex: 1;
+            text-align: center;
+            padding: 10px 0;
+            cursor: pointer;
+            font-size: 12px;
+            background: white;
+            border-radius: 12px;
+            border: 1px solid rgb(255, 255, 255);
+            box-shadow: rgba(6, 5, 50, 0.12) 0px 4px 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .check {
+            scale: 0;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .selected {
+            outline: 1px solid #F96900;
+
+            .check {
+                scale: 1;
+            }
+        }
+
+        input[type="checkbox"] {
+            display: none;
+
+
+        }
+
+
     }
-    input[type="checkbox"]:checked + label {
-        border-color: #ddd;
-      }
-      
-}
+
+    .description {
+        margin-bottom: 0;
+        flex-grow: 1;
+padding: 0 3px;
+        span {
+            display: block;
+            font-weight: 700;
+        }
+    }
+
+    .buttonBox {
+        z-index: 1;
+        position: relative;
+        background: #f5f5f7;
+        background: linear-gradient(0deg, #fcfcfc 5%, #fff0 100%);
+
+        padding: 0 20px 15px 20px;
+
+        button {
+            width: 100%;
+        }
+
+    }
+
 
 }
