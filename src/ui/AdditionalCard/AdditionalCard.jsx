@@ -11,3 +11,4 @@ export const AdditionalCard = ({name, img, price}) => {
     </div>
   );
 };
+
