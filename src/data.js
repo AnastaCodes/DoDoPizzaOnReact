@@ -402,31 +402,31 @@ export const data = [
             {
                 name: 'Комбо за 599 ₽',
                 img: '../public/items/combo/image-combo.png',
-                discription: 'Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус.',
+                description: 'Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус.',
                 price: '599 ₽',
             },
             {
                 name: '2 пиццы',
                 img: '../public/items/combo/image-combo.png',
-                discription: 'Самое популярное комбо из 2 пицц 30 см. Большой выбор',
+                description: 'Самое популярное комбо из 2 пицц 30 см. Большой выбор',
                 price: '899 ₽',
             },
             {
                 name: '2 пиццы и закуска',
                 img: '../public/items/combo/image-combo.png',
-                discription: '2 пиццы 25 см и закуска на выбор. Для компании из 2–4 человек',
+                description: '2 пиццы 25 см и закуска на выбор. Для компании из 2–4 человек',
                 price: '799 ₽',
             },
             {
                 name: 'Пицца и 2 закуски',
                 img: '../public/items/combo/image-combo.png',
-                discription: 'Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек',
+                description: 'Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек',
                 price: '799 ₽',
             },
             {
                 name: 'Комбо за 999 ₽',
                 img: '../public/items/combo/image-combo2.jpg',
-                discription: '3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц ограничен',
+                description: '3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц ограничен',
                 price: '999 ₽',
             },
         ]
