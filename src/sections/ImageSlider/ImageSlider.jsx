@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import s from './ImageSlider.module.scss';
-import slider1 from '../../../public/slider/slider_1.png';
-import slider2 from '../../../public/slider/slider_2.png';
-import slider3 from '../../../public/slider/slider_3.png';
+import slider1 from './slider/slider_1.png';
+import slider2 from './slider/slider_2.png';
+import slider3 from './slider/slider_3.png';
 
 export const ImageSlider = () => {
    const settings = {
