@@ -4,6 +4,7 @@ import Picture  from '../../assets/img/image-3-pizza.jpg'
 import { Container } from '../../components/Container/Container'
 import { data } from '../../data.js'
 //переписать дриллинг на UseContext
+
 export const Category = ({title, type='txt', onClick, getItem}) => {
     const typeItem = data.filter((item) => item.type === type);
     console.log(type[0].items);
@@ -23,7 +24,7 @@ export const Category = ({title, type='txt', onClick, getItem}) => {
                 type === 'pizza' ? el.small.price : el.price
             }
               txtButton="Выбрать"
-              onClick = {onClick}
+              onClick = {()=> onClick(el.name)}
               getItem ={getItem}
             />
           ))}
