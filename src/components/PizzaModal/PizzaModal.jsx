@@ -1,13 +1,13 @@
 import React, { useState, useRef } from "react";
 import s from "./PizzaModal.module.scss";
 
-import Brynza from "../../../public/items/additionalIngredients/Brynza.png";
-import CheeseCrust from "../../../public/items/additionalIngredients/CheeseCrust.png";
-import Chicken from "../../../public/items/additionalIngredients/Chicken.png";
-import HotJalapeno from "../../../public/items/additionalIngredients/HotJalapeno.png";
-import Mushrooms from "../../../public/items/additionalIngredients/Mushrooms.png";
-import SpicyChicken from "../../../public/items/additionalIngredients/SpicyChicken.png";
-import check from "../../../public/check-circle.svg";
+import Brynza from "./items/additionalIngredients/Brynza.png";
+import CheeseCrust from "./items/additionalIngredients/CheeseCrust.png";
+import Chicken from "./items/additionalIngredients/Chicken.png";
+import HotJalapeno from "./items/additionalIngredients/HotJalapeno.png";
+import Mushrooms from "./items/additionalIngredients/Mushrooms.png";
+import SpicyChicken from "./items/additionalIngredients/SpicyChicken.png";
+import check from "./items/check-circle.svg";
 import { Button } from "../../ui/Button/Button";
 
 
