@@ -10,14 +10,15 @@ import SpicyChicken from "../../../public/items/additionalIngredients/SpicyChick
 import check from "../../../public/check-circle.svg";
 import { Button } from "../../ui/Button/Button";
 
-import { data } from '../../data.js'
+
 //на уровне Main константа "выбранный товар" - false
 // поменяется на название карточки
-export const PizzaModal = ({test, onClick}) => {
+export const PizzaModal = ({test, onClick, selectedItem}) => {
   //const [isModalOpen, setIsModalOpen] = useState({test});
   const [size, setSize] = useState("medium");
   const [dough, setDough] = useState("traditional");
   const [additional, setAdditional] = useState([]);
+
   //флаговое состояние
   const isChanged = useRef(false);
 
@@ -33,6 +34,7 @@ export const PizzaModal = ({test, onClick}) => {
     } else {
       // если ингредиент не выбран
       setAdditional([...additional, el]);
+
     }
 
     setTimeout(() => (isChanged.current = false), 0); //абсолютно параллельное выполнение
@@ -66,12 +68,12 @@ export const PizzaModal = ({test, onClick}) => {
               </div>
               <div className={s.pizzaOptions}>
                 <div className={s.menu}>
-                  <h2 className={s.margin}>Чиззи чеддер</h2>
-                  <p className={s.margin}>30 см, традиционное тесто, 480 г</p>
+                  <h2 className={s.margin}>{selectedItem.name}</h2>
+                  <p className={s.margin}>{selectedItem.description}</p>
                   <div className={`${s.ingridients} ${s.margin}`}>
                     <p>
                       {" "}
-                      кнопки или текста - условный рендеринг Ветчина ❌, сыр
+                       Ветчина ❌, сыр
                       чеддер, сладкий перец ❌, моцарелла, томатный соус,
                       чеснок, итальянские травы
                     </p>
